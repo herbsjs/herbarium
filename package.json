@@ -1,6 +1,6 @@
 {
   "name": "@herbsjs/herbarium",
-  "version": "0.0.0-development",
+  "version": "1.0.0",
   "description": "Herbs Object Repository and Discovery.",
   "main": "./src/herbarium.js",
   "scripts": {
