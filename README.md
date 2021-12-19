@@ -1,6 +1,6 @@
-![Node.js CI](https://github.com/herbsjs/herbarium/workflows/Node.js%20CI/badge.svg?branch=master) [![codecov](https://codecov.io/gh/herbsjs/herbarium/branch/master/graph/badge.svg)](https://codecov.io/gh/herbsjs/herbarium)
+![Node.js CI](https://github.com/herbsjs/herbarium/workflows/Node.js%20CI/badge.svg?branch=main) [![codecov](https://codecov.io/gh/herbsjs/herbarium/branch/main/graph/badge.svg)](https://codecov.io/gh/herbsjs/herbarium)
 
-# Herbarium 
+# Herbarium
 
 Herbarium is a centralized and standardized repository and discovery service for Herbs objects (entities, use cases, repositories) allowing glues (ex: Herbs Shelf, herbs2rest, herbs2gql, herbs2knex, etc) to access, explore and find these objects.
 
@@ -8,7 +8,7 @@ Herbarium is a centralized and standardized repository and discovery service for
 
 ```$ npm install @herbsjs/herbarium```
 
-### Initializing 
+### Initializing
 
 ```javascript
 const { herbarium } = require('@herbs/herbarium')
@@ -22,9 +22,9 @@ This will require all entities, use cases and repositories files.
 `options`:
 - `initialPath`: (optional) default `process.cwd()`
 - `avoidFiles`: (optional) default `(fileName) => fileName.includes('test.js') ? false : fileName`
-- `entitiesPath`: (optional) default `/src/domain/entities` 
-- `usecasesPath`: (optional) default `/src/domain/usecases` 
-- `repositoriesPath`: (optional) default `/src/infra/repositories` 
+- `entitiesPath`: (optional) default `/src/domain/entities`
+- `usecasesPath`: (optional) default `/src/domain/usecases`
+- `repositoriesPath`: (optional) default `/src/infra/repositories`
 
 ### Adding Objects and Metadata
 
