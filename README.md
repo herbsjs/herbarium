@@ -1,4 +1,4 @@
-![Node.js CI](https://github.com/herbsjs/herbarium/workflows/Node.js%20CI/badge.svg?branch=main) [![codecov](https://codecov.io/gh/herbsjs/herbarium/branch/main/graph/badge.svg)](https://codecov.io/gh/herbsjs/herbarium)
+[![CI](https://github.com/herbsjs/herbarium/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/herbsjs/herbarium/actions/workflows/ci.yml) [![codecov](https://codecov.io/gh/herbsjs/herbarium/branch/main/graph/badge.svg)](https://codecov.io/gh/herbsjs/herbarium)
 
 # Herbarium
 
