@@ -128,4 +128,4 @@ https://en.wikipedia.org/wiki/Herbarium
 ### License
 
 **Herbarium** is released under the
-[MIT license](https://github.com/herbsjs/herbarium/blob/master/LICENSE.md).
+[MIT license](https://github.com/herbsjs/herbarium/blob/master/LICENSE).
