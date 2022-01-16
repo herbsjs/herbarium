@@ -29,6 +29,7 @@ This will require all entities, use cases and repositories files.
 ### Adding Objects and Metadata
 
 *Entities*
+
 ```javascript
 // src/domain/entities/item.js
 const { entity, field } = require('@herbsjs/herbs')
@@ -45,7 +46,10 @@ module.exports =
         .entity
 ```
 
+The second parameter of the `herbarium.entities.add` function is the entity id for herbarium. It is optional and if none is provided, it uses the entity name (`Item`).
+
 *Use Cases*
+
 ```javascript
 // src/domain/usecases/item/createItem.js
 const { usecase } = require('@herbsjs/herbs')
@@ -64,7 +68,10 @@ module.exports =
         .usecase
 ```
 
+The second parameter of the `herbarium.usecases.add` function is the usecase id for herbarium. It is optional and if none is provided, it uses the usecase description (`Create Item`).
+
 *Repository*
+
 ```javascript
 const { herbarium } = require('@herbsjs/herbarium')
 const { Repository } = require("@herbsjs/herbs2knex")
@@ -83,10 +90,12 @@ module.exports =
         .repository
 ```
 
+The second parameter of the `herbarium.repositories.add` function is the repository id for herbarium. It is optional and if none is provided, it uses the repository class name (`ItemRepository`).
+
 ### Consuming Objects
 
-
 *all*
+
 ```javascript
 const entities = herbarium.entities.all
 const usecases = herbarium.usecases.all
@@ -94,12 +103,19 @@ const repositories = herbarium.repositories.all
 ```
 
 *findBy*
+
 ```javascript
-const usecases = herbarium.usecases
-    .findBy({ operation: [herbarium.crud.create, herbarium.crud.update, herbarium.crud.delete] })
+const usecases = herbarium.usecases.findBy({
+  operation: [
+    herbarium.crud.create,
+    herbarium.crud.update,
+    herbarium.crud.delete,
+  ],
+})
 ```
 
 *get by id*
+
 ```javascript
 const entity = herbarium.entities.get(1)
 const usecase = herbarium.usecases.get("a")
@@ -108,8 +124,8 @@ const repository = herbarium.repositories.get(item)
 
 ## TODO
 
-- [ ] Improve Test Coverage (metadata, specialized objects, etc)
-- [ ] Default IDs - No need to inform IDs when adding a item. Use entity name or use case description.
+- [x] Improve Test Coverage (metadata, specialized objects, etc)
+- [x] Default IDs - No need to inform IDs when adding a item. Use entity name or use case description.
 
 ### Contribute
 
