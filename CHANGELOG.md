@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/herbsjs/herbarium/compare/v1.1.0...v1.2.0) (2022-02-14)
+
+
+### Features
+
+* **optional-id:** allow registering items using their names/descriptions as id ([236d0bf](https://github.com/herbsjs/herbarium/commit/236d0bfdd262e8ca8d5e47aa1ea59fe368767915))
+
 # [1.1.0](https://github.com/herbsjs/herbarium/compare/v1.0.0...v1.1.0) (2022-02-06)
 
 
