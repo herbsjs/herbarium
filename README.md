@@ -1,4 +1,4 @@
-[![CI](https://github.com/herbsjs/herbarium/actions/workflows/ci.yml/badge.svg)](https://github.com/herbsjs/herbarium/actions/workflows/ci.yml) [![codecov](https://codecov.io/gh/herbsjs/herbarium/branch/main/graph/badge.svg)](https://codecov.io/gh/herbsjs/herbarium)
+[![CD Build](https://github.com/herbsjs/herbarium/actions/workflows/cd.yml/badge.svg)](https://github.com/herbsjs/herbarium/actions/workflows/cd.yml) [![codecov](https://codecov.io/gh/herbsjs/herbarium/branch/main/graph/badge.svg)](https://codecov.io/gh/herbsjs/herbarium)
 
 # Herbarium
 
