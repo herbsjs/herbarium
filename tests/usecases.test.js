@@ -1,6 +1,6 @@
-const usecases = require('./usecases')
+const usecases = require('../src/usecases')
 const assert = require('assert')
-const { usecase } = require('@herbsjs/buchu')
+const { usecase } = require('@herbsjs/herbs')
 
 describe('usecases', () => {
     it('should create an empty list', () => {

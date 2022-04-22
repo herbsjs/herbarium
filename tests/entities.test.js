@@ -1,6 +1,6 @@
-const entities = require('./entities')
+const entities = require('../src/entities')
 const assert = require('assert')
-const { entity } = require('@herbsjs/gotu')
+const { entity } = require('@herbsjs/herbs')
 
 describe('entities', () => {
     it('should create an empty list', () => {

@@ -1,4 +1,4 @@
-const repositories = require('./repositories')
+const repositories = require('../src/repositories')
 const assert = require('assert')
 
 describe('repositories', () => {

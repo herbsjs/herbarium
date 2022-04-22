@@ -4,11 +4,11 @@
   "description": "Herbs Object Repository and Discovery.",
   "main": "./src/herbarium.js",
   "scripts": {
-    "test": "mocha --timeout 999999 --colors --recursive ./src",
+    "test": "mocha --timeout 999999 --colors --recursive ./tests",
     "lint": "npx eslint \"**/*.{js,jsx}\" --quiet",
     "lint:fix": "npx eslint \"**/*.{js,jsx}\" --fix",
-    "coverage-report": "nyc --reporter=html --reporter=text mocha --recursive ./src --timeout 10000",
-    "coverage": "nyc --reporter=text mocha --recursive ./src --timeout 10000",
+    "coverage-report": "nyc --reporter=html --reporter=text mocha --recursive ./tests --timeout 10000",
+    "coverage": "nyc --reporter=text mocha --recursive ./tests --timeout 10000",
     "semantic-release": "semantic-release",
     "commit": "cz"
   },
@@ -36,8 +36,7 @@
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.17.0",
-    "@herbsjs/buchu": "^1.5.1",
-    "@herbsjs/gotu": "^1.1.2",
+    "@herbsjs/herbs": "^1.4.4",
     "@semantic-release/changelog": "^6.0.1",
     "@semantic-release/commit-analyzer": "^9.0.2",
     "@semantic-release/git": "^10.0.1",

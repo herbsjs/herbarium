@@ -17,7 +17,22 @@ herbarium.requireAll(options)
 
 This will require all entities, use cases and repositories files.
 
-*Advanced Options*
+You can check which files were found within the ```herbarium.requireAll(options)``` method using:
+
+```javascript
+const { herbarium } = require('@herbs/herbarium')
+const retqAll = herbarium.requireAll(options)
+
+/* Will return an object of array of files founded
+ {
+   entities:[],
+   usecases":[],
+   repositories:[]
+  }
+*/
+```
+
+### Advanced Options
 
 `options`:
 - `initialPath`: (optional) default `process.cwd()`
