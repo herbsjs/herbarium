@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/herbsjs/herbarium/compare/v1.3.0...v1.3.1) (2022-04-22)
+
+
+### Bug Fixes
+
+* **deps:** bump ansi-regex from 3.0.0 to 3.0.1 ([c09e07a](https://github.com/herbsjs/herbarium/commit/c09e07a13b51f120fc104e79577e9c4fa849ac5d))
+
 # [1.3.0](https://github.com/herbsjs/herbarium/compare/v1.2.0...v1.3.0) (2022-04-22)
 
 
