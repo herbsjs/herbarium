@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/herbsjs/herbarium/compare/v1.2.0...v1.3.0) (2022-04-22)
+
+
+### Features
+
+* 🎸 add option to see files founded inside requireAll ([214f3f2](https://github.com/herbsjs/herbarium/commit/214f3f267f55cdd6ec2d0568a4eeb9dabbf14016))
+
 # [1.2.0](https://github.com/herbsjs/herbarium/compare/v1.1.0...v1.2.0) (2022-02-14)
 
 
