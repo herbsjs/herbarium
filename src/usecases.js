@@ -5,10 +5,7 @@ const { toPascalCase } = require('./tools')
 
 const builder = (usecase, id) => {
     const usecaseId = id || toPascalCase(usecase.description)
-
-    if (!usecaseId) {
-        throw new Error('Herbarium requires an id for this usecase or an usecase with non empty description.')
-    }
+    if (!usecaseId) throw new Error('id cannot be empty')
 
     const defaultItem = item(usecaseId)
     const usecaseItem = Object.assign({}, defaultItem, {

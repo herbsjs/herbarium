@@ -9,7 +9,7 @@ describe('entities', () => {
 
     it('should throw an error when no id is provided and the entity has no name', () => {
         const entityWithNoName = {}
-        assert.throws(() => entities.add(entityWithNoName), /^Error: Herbarium requires an id for this entity or an entity with a non empty name.$/)
+        assert.throws(() => entities.add(entityWithNoName), /^Error: id cannot be empty$/)
     })
 
     it('should create an item with the provided id and entity', () => {

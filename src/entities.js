@@ -5,10 +5,7 @@ const { toPascalCase } = require('./tools')
 
 const builder = (entity, id) => {
     const entityId = id || toPascalCase(entity.name)
-
-    if (!entityId) {
-        throw new Error('Herbarium requires an id for this entity or an entity with a non empty name.')
-    }
+    if (!entityId) throw new Error('id cannot be empty')
 
     const defaultItem = item(entityId)
     const entityItem = Object.assign({}, defaultItem, { entity })
