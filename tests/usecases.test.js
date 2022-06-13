@@ -8,7 +8,7 @@ describe('usecases', () => {
     })
 
     it('should throw an error when no id is provided and the usecase has no description', () => {
-        assert.throws(() => usecases.add(class { }), /^Error: Herbarium requires an id for this usecase or an usecase with non empty description.$/)
+        assert.throws(() => usecases.add(class { }), /^Error: id cannot be empty$/)
     })
 
     it('should create an item with the provided id and usecase', () => {
