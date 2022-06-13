@@ -1,6 +1,6 @@
 const createItem = require('./createItem')
 const assert = require('assert')
-const { spec, scenario, given, check } = require('@herbsjs/aloe')
+const { spec, scenario, given, check } = require('@herbsjs/herbs').specs
 
 const createItemSpec = spec({
     usecase: createItem,

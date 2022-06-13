@@ -1,6 +1,6 @@
 const specs = require('../src/specs')
 const assert = require('assert')
-const { spec } = require('@herbsjs/aloe')
+const { spec } = require('@herbsjs/herbs').specs
 
 describe('specs', () => {
     it('should create an empty list', () => {
