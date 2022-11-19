@@ -28,7 +28,7 @@ module.exports = function requireAll(options = {}) {
     filesReqAll.usecases = files
 
     // specs
-    files = requireAllIfExist({ dirname: __dir + (options.specPath || '/src/domain/'), filter: onlySpecs })
+    files = requireAllIfExist({ dirname: __dir + (options.specPath || '/test/'), filter: onlySpecs })
     filesReqAll.specs = files
 
     // repositories
