@@ -157,6 +157,14 @@ const usecase = herbarium.usecases.get("a")
 const repository = herbarium.repositories.get(item)
 ```
 
+### Reset
+
+This method will clear all objects and metadata. Usefull for testing.
+
+```javascript
+herbarium.reset()
+```
+
 ## TODO
 
 - [x] Improve Test Coverage (metadata, specialized objects, etc)

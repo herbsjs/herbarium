@@ -1,4 +1,4 @@
-const item = require('./item')
+const item = require('../src/list/item')
 const assert = require('assert')
 
 describe('item', () => {

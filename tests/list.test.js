@@ -1,6 +1,6 @@
 const assert = require('assert')
-const item = require('./item')
-const list = require('./list')
+const item = require('../src/list/item')
+const list = require('../src/list/list')
 
 describe('Generic List', () => {
 
@@ -140,4 +140,24 @@ describe('Generic List', () => {
 
         })
     })
+
+    describe('Reset List', () => {
+            
+            it('should reset the list', async () => {
+                // Given
+                const items = new Map()
+                const builder = (obj, id) => Object.assign({}, obj, item(id))
+                const aList = list(items, builder)
+                aList.add({ aStr: "a" }, 10).metadata({ letter: "A", number: 1 })
+                aList.add({ aStr: "b" }, 11).metadata({ letter: "B", number: 2 })
+                aList.add({ aStr: "c" }, 12).metadata({ letter: "C", number: 1 })
+    
+                // When
+                aList.reset()
+    
+                // Then
+                assert.ok(aList.all.size === 0)
+            })
+        })
+
 })

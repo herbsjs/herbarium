@@ -12,6 +12,12 @@ module.exports = {
         usecases,
         specs,
         repositories,
-        crud
+        crud,
+        reset() {
+            entities.reset()
+            usecases.reset()
+            specs.reset()
+            repositories.reset()
+        }
     }
 }

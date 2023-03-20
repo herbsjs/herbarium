@@ -27,5 +27,8 @@ module.exports = (items, builder) => ({
         }
 
         return findByMatchingProperties(Array.from(items.values()), where)
+    },
+    reset() {
+        items.clear()
     }
 })
