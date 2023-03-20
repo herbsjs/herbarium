@@ -1,3 +1,16 @@
+# [1.5.0](https://github.com/herbsjs/herbarium/compare/v1.4.0...v1.5.0) (2023-03-20)
+
+
+### Bug Fixes
+
+* **cd:** fix CD envs ([b5a7596](https://github.com/herbsjs/herbarium/commit/b5a7596fd5fb24bf65f0a6222c262a5d85154343))
+* **ci:** upgrate node version ([a53eb91](https://github.com/herbsjs/herbarium/commit/a53eb91b7f24fbaed2b835ad0874de0ecc45899c))
+
+
+### Features
+
+* **herbarium:** reset - Clean all lists and metadata ([6295cc7](https://github.com/herbsjs/herbarium/commit/6295cc764746d6d43dab077b1dadaf57ad40c778))
+
 # [1.4.0](https://github.com/herbsjs/herbarium/compare/v1.3.1...v1.4.0) (2022-06-13)
 
 
